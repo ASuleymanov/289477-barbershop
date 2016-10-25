@@ -29,6 +29,7 @@
         <div class="user-block">
           <a class="login" href="#">ВХОД</a>
         </div>
+      </div>
     </header>
     <main class="container">
       <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
@@ -45,78 +46,85 @@
           </li>
         </ul>
       </nav>
-      <h2>ПРОИЗВОДИТЕЛИ:</h2>
-      <form>
-        <input type="checkbox" name="manufacturer" id="manufacturer-field" checked>
-        <label for="manufacturer-field">BAXTER OF CALIFORNIA</label><br>
-        <input type="checkbox" name="manufacturer" id="manufacturer-field">
-        <label for="manufacturer-field">MR MATTY</label><br>
-        <input type="checkbox" name="manufacturer" id="manufacturer-field" checked>
-        <label for="manufacturer-field">CUAVECITO</label><br>
-        <input type="checkbox" name="manufacturer" id="manufacturer-field">
-        <label for="manufacturer-field">MALIN+GOETZ</label><br>
-        <input type="checkbox" name="manufacturer" id="manufacturer-field">
-        <label for="manufacturer-field">MURRAY`S</label><br>
-        <input type="checkbox" name="manufacturer" id="manufacturer-field" checked>
-        <label for="manufacturer-field">AMERICAN CREW</label><br>
+      <form class="" action="index.html" method="post">
+        <h2>ПРОИЗВОДИТЕЛИ:</h2>
+        <div>
+          <input type="checkbox" name="manufacturer" id="manufacturer-field-1" checked>
+          <label for="manufacturer-field-1">BAXTER OF CALIFORNIA</label>
+          <input type="checkbox" name="manufacturer" id="manufacturer-field-2">
+          <label for="manufacturer-field-2">MR MATTY</label>
+          <input type="checkbox" name="manufacturer" id="manufacturer-field-3" checked>
+          <label for="manufacturer-field-3">CUAVECITO</label>
+          <input type="checkbox" name="manufacturer" id="manufacturer-field-4">
+          <label for="manufacturer-field-4">MALIN+GOETZ</label>
+          <input type="checkbox" name="manufacturer" id="manufacturer-field-5">
+          <label for="manufacturer-field-5">MURRAY`S</label>
+          <input type="checkbox" name="manufacturer" id="manufacturer-field-6" checked>
+          <label for="manufacturer-field-6">AMERICAN CREW</label>
+        </div>
+        <h2>ГРУППЫ ТОВАРОВ:</h2>
+        <div class="">
+            <input type="radio" name="product group" value="Shaving accessories">
+            БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ<br />
+            <input type="radio" name="product group" value="Means for care" checked>
+            СРЕДСТВА ДЛЯ УХОДА<br />
+            <input type="radio" name="product group" value="accessories">
+            АКСЕССУАРЫ
+        </div>
+        <div class="">
+          <a href="#">ПОКАЗАТЬ</a>
+        </div>
       </form>
-      <h2>ГРУППЫ ТОВАРОВ:</h2>
-      <div class="">
-        <form>
-          <input type="radio" name="product group" value="Shaving accessories">
-          БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ<br />
-          <input type="radio" name="product group" value="Means for care" checked>
-          СРЕДСТВА ДЛЯ УХОДА<br />
-          <input type="radio" name="product group" value="accessories">
-          АКСЕССУАРЫ
-        </form>
+      <div class="shop-item">
+        <div>
+          <a href="#"><img src="http://placehold.it/150x100" alt="набор для путешествий"></a>
+          <a href="#">Набор для путешествий BAXTER OF CALIFORNIA</a>
+          <div class="">
+              2900руб.<a href="#">купить</a>
+          </div>
+        </div>
+        <div>
+          <a href="#"><img src="http://placehold.it/150x100" alt="увлажняющий кондиционер"></a>
+          <a href="#">Увлажняющий кондиционер BAXTER OF CALIFORNIA</a>
+          <div class="">
+          </div>
+              750руб.<a href="#">купить</a>
+          </div>
+        </div>
+        <div>
+          <a href="#"><img src="http://placehold.it/150x100" alt="гель для волос"></a>
+          <a href="#">Гель для волос CUAVECITO</a>
+          <div class="">
+              290руб.<a href="#">купить</a>
+          </div>
+        </div>
+        <div>
+          <a href="#"><img src="http://placehold.it/150x100" alt="гель для укладки волос"></a>
+          <a href="#">Гель для укладки волос AMERICAN CREW</a>
+          <div class="">
+              500руб.<a href="#">купить</a>
+          </div>
+        </div>
+        <div>
+          <a href="#"><img src="http://placehold.it/150x100" alt="гель для волос"></a>
+          <a href="#">Гель для волос AMERICAN CREW</a>
+          <div class="">
+              300руб.<a href="#">купить</a>
+          </div>
+        </div>
+        <div>
+          <a href="#"><img src="http://placehold.it/150x100" alt="набор для бритья"></a>
+          <a href="#">Набор для бритья BAXTER OF CALIFORNIA</a>
+          <div class="">
+              3900руб.<a href="#">купить</a>
+          </div>
+        </div>
+      <div class="btn">
+        <button class="btn page-1" type="button">1</button>
+        <button class="btn page-2" type="button" autofocus="">2</button>
+        <button class="btn page-3" type="button">3</button>
+        <button class="btn page-4" type="button">4</button>
       </div>
-      <div>
-        <a href="#"><img src="http://placehold.it/150x100" alt="набор для путешествий"></a>
-        <a href="#" text>Набор для путешествий BAXTER OF CALIFORNIA</a>
-        <form class="" action="index.html" method="post">
-          2900руб.<input type="submit" value="купить" />
-        </form><br>
-      </div>
-      <div>
-        <a href="#"><img src="http://placehold.it/150x100" alt="увлажняющий кондиционер"></a>
-        <a href="#">Увлажняющий кондиционер BAXTER OF CALIFORNIA</a>
-        <form class="" action="index.html" method="post">
-          750руб.<input type="submit" value="купить" />
-        </form>
-      </div>
-      <div>
-        <a href="#"><img src="http://placehold.it/150x100" alt="гель для волос"></a>
-        <a href="#">Гель для волос CUAVECITO</a>
-        <form class="" action="index.html" method="post">
-          290руб.<input type="submit" value="купить" />
-        </form>
-      </div>
-      <div>
-        <a href="#"><img src="http://placehold.it/150x100" alt="гель для укладки волос"></a>
-        <a href="#">Гель для укладки волос AMERICAN CREW</a>
-        <form class="" action="index.html" method="post">
-          500руб.<input type="submit" value="купить" />
-        </form>
-      </div>
-      <div>
-        <a href="#"><img src="http://placehold.it/150x100" alt="гель для волос"></a>
-        <a href="#">Гель для волос AMERICAN CREW</a>
-        <form class="" action="index.html" method="post">
-          300руб.<input type="submit" value="купить" />
-        </form>
-      </div>
-      <div>
-        <a href="#"><img src="http://placehold.it/150x100" alt="набор для бритья"></a>
-        <a href="#">Набор для бритья BAXTER OF CALIFORNIA</a>
-        <form class="" action="index.html" method="post">
-          3900руб.<input type="submit" value="купить" />
-        </form>
-      </div>
-      <button class="btn page-1" type="button">1</button>
-      <button class="btn page-2" type="button" autofocus="">2</button>
-      <button class="btn page-3" type="button">3</button>
-      <button class="btn page-4" type="button">4</button>
     </main>
     <footer class="main-footer">
       <div class="container">
